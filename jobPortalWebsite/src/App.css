@@ -1,0 +1,27 @@
+  /* App.css */
+
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Add common styles to all components */
+.app-container {
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+/* Make the app responsive */
+@media (max-width: 768px) {
+  .app-container {
+    margin: 10px;
+  }
+}
+
+/* Additional global styles can go here if needed */

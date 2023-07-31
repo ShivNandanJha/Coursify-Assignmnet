@@ -1,0 +1,67 @@
+/* components/JobListSection.css */
+
+.job-list-section {
+    display: flex;
+  }
+  
+  .horizontal-section {
+    flex: 1;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin  : 20px;
+    background-color: #edededcb;
+    padding : 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dropdown-header {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dropdown-content {
+    width   : 295px;
+    display : none;
+    position: absolute;
+    top     : 100%;
+    left    : 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown ul li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .job-list-section {
+      flex-direction: column;
+    }
+  
+    .horizontal-section {
+      margin: 10px;
+    }
+    .dropdown ul li{
+        z-index: 2;
+    }
+  }
+  

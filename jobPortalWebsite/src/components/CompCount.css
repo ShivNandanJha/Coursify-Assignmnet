@@ -1,0 +1,50 @@
+
+
+.stats-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .stat {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 0.2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+.stat1 h2{
+    color: orangered;
+}
+.stat2 h2{
+    color: green;
+}
+.stat3 h2{
+    color: blue;
+}
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .stats-section {
+      flex-direction: column;
+    }
+  
+    .stat {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

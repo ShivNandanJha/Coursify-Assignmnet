@@ -1,0 +1,50 @@
+/* LogoSlider.css */
+
+.logoSlider {
+    box-sizing: border-box;
+    width: 85vw;
+    /* max-width: 1200px; Limit the maximum width for large screens */
+    overflow-X: hidden;
+    padding: 60px 0px;
+    margin: 0 auto; /* Center the slider horizontally */
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    white-space: nowrap;
+    animation: 20s slide infinite linear;
+    display: flex; /* Ensure the logos are displayed in a row */
+    align-items: center; /* Center the logos vertically */
+    /* overflow-x: hidden; Hide logos that exceed the slider width */
+  }
+  
+  .logoSlider img {
+    height: 70px;
+    margin: 10px;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .logoSlider {
+      width: 90vw; /* Adjust the width for smaller screens */
+      padding: 40px 0px; /* Reduce padding for smaller screens */
+    }
+  
+    .logos {
+      animation-duration: 20s; /* Adjust the animation duration for smaller screens */
+    }
+  
+    .logoSlider img {
+      height: 50px; /* Reduce logo size for smaller screens */
+      margin: 5px; /* Reduce logo margin for smaller screens */
+    }
+  }
+  

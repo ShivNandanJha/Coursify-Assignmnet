@@ -1,0 +1,104 @@
+/* pages/Homepage.css */
+
+/* Adjust the background color and spacing as needed */
+.homepage {
+    width: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 70px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text-section h1 {
+    font-family: 'Foldit', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .explore-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .image-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+  }
+  
+  /* Responsive styles for smaller devices */
+  @media (max-width: 768px) {
+    .homepage {
+      padding: 20px;
+      width  : 80vw;
+      flex-wrap: wrap;
+    }
+  
+    .content-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-section,
+    .image-section {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .text-section h1 {
+      font-size: 40px;
+    }
+  
+    .explore-button,
+    .button {
+      margin-top: 10px;
+    }
+  }
+  
