@@ -1,8 +1,10 @@
 /* components/Footer.css */
 
 .footer {
-    background-color: #f9f9f9;
-    padding: 20px;
+    background-color: #dcdcdcb4;
+    margin          : 20px 0px 0px 20px;
+    padding         : 20px;
+    border-radius: 10px;
   }
   
   .footer-content {

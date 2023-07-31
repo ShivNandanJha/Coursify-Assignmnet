@@ -14,17 +14,19 @@
     background-color: #fff;
     border: 0.2px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.1);
   }
   
   .stat h2 {
-    font-size: 24px;
+    font-size    : 24px;
     margin-bottom: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
   }
   
   .stat p {
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 1.6;
+    font-family: 'Alegreya', serif;
   }
   
 .stat1 h2{
